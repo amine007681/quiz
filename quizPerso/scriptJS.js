@@ -13,10 +13,10 @@ start.addEventListener("click", starteGame)
 function starteGame(){
     timer = setInterval(chrono, 10);
     song.play();
-    marioPicture.style.display = " block";
-    pika.style.display = "flex";
-    header.style.display = "none";
-    introduction.style.display = "none";
+    marioPicture.style.display = "block";
+    //pika.style.display = "flex";
+    //header.style.display = "none";
+    //introduction.style.display = "none";
 
 
 }
