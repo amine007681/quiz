@@ -43,7 +43,7 @@ main{
 }
 .block-question{
     width: 90%;
-    height: 20%;
+    height: 100%;
     background-color: aqua;
     flex-direction: column;
     display: flex;
@@ -54,14 +54,12 @@ main{
     border-radius: 10px;
    
 }
-#pikatchu{
-    display: none;
-}
 .block-title{
     text-align: center;
 }
 .block-image{
     width: 50%;
+    height: auto;
 }
 .block-image img{
     width: 100%;
@@ -70,7 +68,7 @@ main{
     object-fit: cover;
 }
 .block-response{
-    width: 50%;
+    width: 57%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -86,4 +84,19 @@ main{
 }
 footer{
     background-color: burlywood;
+}
+
+@media (max-width: 768px){
+    .block-response button{
+        width: 45%;
+        margin-right: 3px;
+        padding: 1px;
+        text-align: center;
+        color: beige;
+        background-color: black;
+
+    }
+
+
+
 }
