@@ -82,6 +82,12 @@ main{
     border-radius: 2mm;
 
 }
+.bonne-reponse{
+    display: none;
+}
+.mauvaise-reponse{
+    display: none;
+}
 footer{
     background-color: burlywood;
 }
@@ -96,7 +102,4 @@ footer{
         background-color: black;
 
     }
-
-
-
 }
