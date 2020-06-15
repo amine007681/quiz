@@ -1,0 +1,105 @@
+audio{
+    width: 15%;
+    background-color: blue;
+    color: cadetblue;
+}
+.inputTimer{
+    margin-left: 82%;
+    position: fixed;
+    width: 10%;
+    display: flex;
+}
+header{
+    width: 100%;
+}
+header h1{
+    background : linear-gradient(to left,green, blue, red, yellow);
+    height: 100px;   
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header img{
+    width: 100%;
+    height: 500px;
+}
+.buttom-start{
+    cursor: pointer;
+}
+main{
+    background-color: black;
+}
+.images{
+    position: fixed;
+    display: none;
+}
+.block-introduction{
+    background-color: chartreuse;
+    text-align: center;
+    line-height: 1cm;
+    margin: 0;
+    padding: 0;
+    
+}
+.block-question{
+    width: 90%;
+    height: 100%;
+    background-color: aqua;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+   
+}
+.block-title{
+    text-align: center;
+}
+.block-image{
+    width: 50%;
+    height: auto;
+}
+.block-image img{
+    width: 100%;
+}
+.mega-Man{
+    object-fit: cover;
+}
+.block-response{
+    width: 57%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.block-response button{
+    width: 48%;
+    margin: 4px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 2mm;
+
+}
+.bonne-reponse{
+    display: none;
+}
+.mauvaise-reponse{
+    display: none;
+}
+footer{
+    background-color: burlywood;
+}
+
+@media (max-width: 768px){
+    .block-response button{
+        width: 45%;
+        margin-right: 3px;
+        padding: 1px;
+        text-align: center;
+        color: beige;
+        background-color: black;
+
+    }
+}
